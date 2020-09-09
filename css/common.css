@@ -7,18 +7,6 @@
 /* цвет фона футера #2F303A*/
 /* цвет иконок социальных сетей #AFB1B8*/
 
-.logo {
-  color: var(--accent-colour);
-  font-family: 'Raleway', sans-serif;
-
-  font-size: 26px;
-  font-weight: bold;
-  line-height: 1.19;
-  text-decoration: none;
-}
-.logo-title {
-  color: var(--primary-black-color);
-}
 .list {
   padding: 0;
   margin: 0;
