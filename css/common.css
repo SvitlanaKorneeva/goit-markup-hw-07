@@ -1,34 +1,11 @@
-* {
-  box-sizing: border-box;
-}
-
 /* цвет основного текста #212121 */
 /* вторичный цвет текста #757575 */
 /* цвет белый #FFFFFF*/
 /* цвет черный #000000*/
+
 /* вторичный цвет фона #F5F4FA */
 /* цвет фона футера #2F303A*/
 /* цвет иконок социальных сетей #AFB1B8*/
-
-:root {
-  --primary-text-color: #212121;
-  --secondary-text-color: #757575;
-  --accent-colour: #2196f3;
-  --primary-black-color: #000000;
-  --primary-white-color: #ffffff;
-  --secondary-background-color: #f5f4fa;
-  --background-footer-colour: #2f303a;
-  --color-social-icons: #afb1b8;
-}
-body {
-  background-color: var(--primary-white-color);
-  color: var(--primary-text-color);
-
-  font-family: 'Roboto', sans-serif;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-}
 
 .logo {
   color: var(--accent-colour);
