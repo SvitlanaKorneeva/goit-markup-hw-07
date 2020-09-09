@@ -6,7 +6,8 @@
   font-weight: bold;
   line-height: 1.19;
   text-decoration: none;
-}
-.logo-title {
-  color: $black-color;
+
+  &-title {
+    color: $primary-black-color;
+  }
 }
