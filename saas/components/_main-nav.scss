@@ -1,11 +1,7 @@
-/* Main nav */
-
 .main-nav {
   display: flex;
   align-items: center;
 }
-
-/* site nav*/
 .site-nav {
   display: flex;
   margin-left: 85px;
@@ -27,13 +23,15 @@
   letter-spacing: 0.02em;
   text-decoration: none;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: $accent-colour;
-}
-.site-nav .link.current {
-  color: $accent-colour;
+
+  &:hover,
+  &:focus {
+    color: $accent-colour;
+  }
+
+  &.current {
+    color: $accent-colour;
+  }
 }
 
 .site-nav .link::after {
@@ -45,15 +43,12 @@
   width: 100%;
   height: 4px;
   background-color: $accent-colour;
-
-  /*opacity: 0;*/
   transform: scaleX(0);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.site-nav .link:hover::after {
-  /*opacity: 1;*/
-  transform: scaleX(1);
+  &:hover::after {
+    transform: scaleX(1);
+  }
 }
 
 /*nav contacts*/
@@ -72,10 +67,11 @@
   letter-spacing: 0.02em;
   text-decoration: none;
   transition: 500ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.nav-contacts .link:hover,
-.nav-contacts .link:focus {
-  color: $accent-colour;
+
+  &:hover,
+  &:focus {
+    color: $accent-colour;
+  }
 }
 
 .contacts-icon-tel {
